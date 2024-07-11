@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+    <div class="container">
+
+        <!-- ex--36
+         <h1 onload="loAd()">The onload Event</h1>
+
+        <!-- ex--36 --> <hr> -->
+
+        <!-- ex--1 -->
+         
+          <h1>Click the button to change the text</h1>
+
+          <button onclick="textChange()" type="button" >change the text</button>
+          <h3 id="t_c">Hello</h3>
+
+        <!-- ex--1 --> <hr>
+
+        <!-- ex--2 -->
+         <h1>Click the button to change the style color</h1>
+         <button onclick="colorChange()" type="button">change style color</button>
+         <h3 id="s_c">Lorem ipsum dolor sit amet.</h3>
+        <!-- ex--2 --> <hr>
+
+        <!-- ex--3 -->
+        <h1>Click the button to on/off the bulb</h1>
+        <button onclick="bulbOn()" type="button">turn on bulb</button>
+        <button onclick="bulbOff()" type="button">turn off bulb</button>
+        <img id="b_m" src="img/off.gif" alt="">
+        <!-- ex--3 --> <hr>
+
+        <!-- ex---4 -->
+        <h1>Click the button to show the data</h1>
+        <button onclick="shoedata()" type="button">Show the data</button>
+        <h3 id="s_d">show data</h3>
+        <!-- ex---4 --> <hr>
+
+        <!-- ex--5 -->
+        <h1>Click the button to show/hide the display</h1>
+        <button onclick="showText()" type="button">Show text</button>
+        <button onclick="hideText()" type="button">Hide text</button>
+        <h3 id="s_t">Lorem ipsum dolor sit amet.</h3>
+        <!-- ex--5 -->
+
+        <!-- ex--6 --> <hr>
+        <h1>Click the button to show the display</h1>
+        <button onclick="dWrite()" type="button">document.write</button>
+        <!-- ex--6 -->
+
+        <!-- ex--7 --> <hr>
+        <h1>Click the button to show the window.alert</h1>
+        <button onclick="winAlert()" type="button"> window.alert</button>
+        <!-- ex--7 -->
+
+        <!-- ex--8 --> <hr>
+        <h1>Click the button to show the data into console</h1>
+        <button onclick="cLog()">console.log</button>
+        <!-- ex--8 --> <hr>
+
+        <!-- ex--9 -->
+         <h1>Click the button to print the current page</h1>
+         <button onclick="pPage()" type="button">print this page</button>
+        <!-- ex--9 -->
+
+        <!-- ex --10 --> <hr>
+        <h1>Click the button to show the result</h1>
+        <button onclick="reSult()" type="button">result</button>
+        <h3 id="r_s">the result</h3>
+        <!-- ex --10 -->
+
+         <!-- ex--11 --> <hr>
+         <h1>Click the button to show the constant array</h1>
+         <button onclick="arRay()">Show the constant array</button>
+         <h3 id="a_s"></h3>
+         <!-- ex--11 -->
+
+         <!-- ex--12 --> <hr>
+         <h1>Click the button to change the constant array</h1>
+         <button onclick="chaNge()">change the constant array</button>
+         <h3 id="p">Lorem ipsum dolor sit amet.</h3>
+         <h3 id="p">Lorem ipsum dolor sit amet.</h3>
+         <h3 id="p">Lorem ipsum dolor sit amet.</h3>
+         <h3 id="p">Lorem ipsum dolor sit amet.</h3>
+         <!-- ex--12 -->
+
+         <!-- ex--13 --> <hr>
+         <h1>Click the button to push the constant array</h1>
+         <button onclick="puSh()">push the constant array</button>
+         <h3 id="p_s"></h3>
+         <!-- ex--13 -->
+
+         <!-- ex--14 --> <hr>
+         <h1>Click the button to change the constant object</h1>
+         <button onclick=" obJect()">constant object</button>
+         <h3 id="o_j"></h3>
+
+         <!-- ex--14 -->
+
+         <!-- ex--15 --> <hr>
+         <h1>Click the button to show the constant array</h1>
+         <button onclick="aRray()">array</button>
+         <h3 id="a_r"></h3>
+         <!-- ex--15 -->
+
+         <!-- ex--16 --> <hr>
+         <h1>Click the button to show the sort array method</h1>
+         <button onclick="fruit()">sort array method</button>
+         <h3 id="s_m"></h3>
+         <h3 id="s_m2"></h3>
+         <!-- ex--16 -->
+
+          <!-- ex--17 --> <hr>
+          <h1>Click the button to show the Reversing array method</h1>
+          <button onclick="reVers()">Reversing array method</button>
+          <h3  id="r_v"></h3>
+          <!-- ex--17 -->
+
+          <!-- ex--18 --> <hr>
+          <h1>Click the button to show The indexOf Method</h1>
+          <button onclick="inDex()">The indexOf Method </button>
+          <h3 id="f_m"></h3>
+          <!-- ex--18 -->
+
+          <!-- ex--19 --> <hr>
+          <h1>show The find Method</h1>
+          <button onclick="myFunction(value, index, array)">find Method</button>
+          <h3 id="f_d"></h3>
+          <!-- ex--19 -->
+           <!-- ex--20 --> <hr>
+            <h1>GetMonth Method</h1>
+            <button onclick="daTe()">getMonth Method</button>
+            <h3 id="g_d"></h3>
+           <!-- ex--20 -->
+
+           <!-- ex--21 --> <hr>
+            <h1>SetDate method</h1>
+            <button onclick="sEtdate()">setDate method</button>
+            <h3 id="s_d"></h3>
+           <!-- ex--21 -->
+
+           <!-- ex--22 --> <hr>
+            <h1>SetHours</h1>
+            <button onclick="seThour()">setHours</button>
+            <h3 id="h_d"></h3>
+           <!-- ex--22 -->
+
+           <!-- ex--23 --> <hr>
+            <h1>Show the setMinutes Method</h1>
+            <button onclick="miNute()">SetMinutes Method</button>
+            <h3 id="m_n"></h3>
+           <!-- ex--23 -->
+
+           <!-- ex--24 --> <hr>
+            <h1> Show SetSeconds method</h1>
+            <button onclick="seCond()">setSeconds method</button>
+            <h3 id="s_s"></h3>
+           <!-- ex--24 -->
+
+           <!-- ex--25 --> <hr>
+            <h1>ToExponential method</h1>
+            <button onclick="toeXpon()">ToExponential method</button>
+            <h3 id="t_e"></h3>
+           <!-- ex--25 -->
+
+           <!-- ex--26 --> <hr>
+            <h1>Show the number</h1>
+            <button onclick="nUmber()">Number</button>
+            <h3 id="n_m"></h3>
+           <!-- ex--26 -->
+
+           <!-- ex--27 --> <hr>
+            <h1>Floating point arithmetic</h1>
+            <button onload="poInt()">Arithmetic</button>
+            <h3 id="p_t"></h3>
+           <!-- ex--27 -->
+
+           <!-- ex--28 --> <hr>
+           <h2>The focus Event</h2>
+           Enter your name: <br> <input type="text" onfocus="myFunction(this)">
+
+           <!-- ex--28 -->
+
+           <!-- ex--29 --> <hr>
+           <h2>The blur Event</h2>
+           Enter your name: <br> <input type="text" id="fname" onblur="myunction()">
+           <!-- ex--29 -->
+
+           <!-- ex--30 --> <hr>
+            <h1>The oninput Event</h1>
+            <input type="text" id="myInput" oninput="myFunction()">
+            <h3 id="mo"></h3>
+           <!-- ex--30 -->
+
+           <!-- ex--31 --> <hr>
+            <h1>Alert some text if an input field is invalid</h1>
+            <form action="">
+              Name: <input type="text" oninvalid="alert('You must fill out the form!');" name="fname" required>
+              <input type="submit" value="Submit">
+            </form>
+           <!-- ex--31 -->
+
+           <!-- ex--32 --> <hr>
+            <h1>The onkeydown Even</h1>
+            <input type="text" onkeydown="mYfunction()">
+            <h3 id="oN"></h3>
+           <!-- ex--32 -->
+
+           <!-- ex--33 --> <hr>
+            <h1>The onkeypress Even</h1>
+            <input type="text" onkeypress="myfunCtion()">
+
+           <!-- ex--33 -->
+
+           <!-- ex--34 --> <hr>
+            <h1>The keyup Event</h1>
+            Enter your name: <input type="text" id="fname" onkeyup="deF()">
+           <!-- ex--34 -->
+
+           <!-- ex--35 --> <hr>
+            <h1>form is submitted</h1>
+            <form action="#" onsubmit="myfunctIon()">
+              Enter name: <input type="text" name="fname">
+              <input type="submit" value="Submit">
+            </form>
+           <!-- ex--35 -->
+
+           <!-- ex--36 --> <hr>
+            <h1>Open the details</h1>
+            <button ontoggle="myFunction()">Click to button Open the details</button>
+            <details ontoggle="myFunction()">
+              <summary>Copyright 1999-2014.</summary>
+              <p> - by Refsnes Data. All Rights Reserved.</p>
+              <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+              </details>
+           <!-- ex--36 -->
+
+           <!-- ex--37 --> <hr>
+            <h1>Click to button change the text color</h1>
+            <button onclick="color()">Text color change</button>
+            <h3 id="h">Lorem ipsum dolor sit amet.</h3>
+           <!-- ex--37 -->
+
+           <!-- ex--38 --> <hr>
+            <h1>Click to button show the box shadow</h1>
+            <button onclick="textShadow()" type="button"> Boxshadow</button>
+            <h3 id="shadow">Lorem ipsum dolor sit amet.</h3>
+           <!-- ex--38 -->
+
+           <!-- ex--39 --> <hr>
+           <h3 id="transForm"> Lorem ipsum dolor sit amet.</h3>
+           <button onclick="textTransform()" type="button"> Text Transform</button>
+           <!-- ex--39 -->
+
+           <!-- ex--40 --> <hr>
+           <h3 id="fontWeight_change">Lorem ipsum dolor sit amet</h3>
+           <button onclick="fontWeight()" type="button"> click to button change the font-weight </button>
+
+           <!-- ex--40 --> hr
+           
+           <!-- ex--41 --> <hr>
+           <h3 id="fontStyle_change">Lorem ipsum dolor sit amet.</h3>
+           <button onclick="fontStyle()" type="button"> click to buttton change the font style </button>
+           <!-- ex--41 -->
+
+           <!-- ex--42 --> <hr>
+            <h1>Submitting a search</h1>
+            <input type="search" id="myInput" onsearch="seaRch()">
+            <h3 id="dm"></h3>
+           <!-- ex--42 -->
+
+           <!-- ex--43 --> <hr>
+           <h1>Reset the form</h1>
+           <form onreset="reSet()">
+            Enter name: <input type="text">
+            <input type="reset">
+          </form>
+          <!-- ex--43 -->
+
+          <!-- ex--44 --> <hr>
+           <h1>browser window is resized</h1>
+           <button onclick="iOn()" type="button" >resized</button>
+          <p id="demo"></p>
+          <!-- ex--44 -->
+
+          <!-- ex--45 --> <hr>
+           <h1>single or double quotes</h1>
+           <button onclick="sIngel()" type="button">single or double quotes</button>
+           <p id="demo"></p>
+          <!-- ex--45 -->
+          
+          <!-- ex--46 --> <hr>
+          <button onclick="jDec()" type="button"">Decrement Result</button>
+          <p id="d_r">56</p>
+          <!-- ex--46 -->
+          
+
+          
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
